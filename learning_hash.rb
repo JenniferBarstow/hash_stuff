@@ -2,14 +2,18 @@
 
 class LearningHash
   def foo_key(hash)
+    hash[:foo]
+
     # your code here
   end
 
   def bar_key(hash)
+    hash[:bar]
     # your code here
   end
 
   def key_stringer(hash)
+  
     # your code here
     # hint see http://ruby-doc.org/core-2.1.5/Hash.html#method-i-each_key
   end
